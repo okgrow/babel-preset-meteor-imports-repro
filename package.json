@@ -1,0 +1,32 @@
+{
+  "name": "meteor-babel-presets-repro-rd",
+  "private": true,
+  "scripts": {
+    "start": "meteor --settings settings.json",
+    "unit-test": "mocha ./tests/unit-tests --compilers js:babel-register,babel-polyfill"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-runtime": "^6.22.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+    "babel-preset-meteor": "6.22.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-import-resolver-meteor": "^0.2.4",
+    "eslint-plugin-graphql": "^0.4.3",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2",
+    "expect": "^1.20.2",
+    "jsonfile": "^2.4.0",
+    "mocha": "^3.2.0",
+    "testdouble": "^1.11.2"
+  }
+}
